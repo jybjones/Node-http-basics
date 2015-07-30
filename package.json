@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "mocha test/unit --recursive",
-    "test-integration": "mocha test/integration --recursive"
+    "test-integration": "mocha test/integration --recursive",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,8 @@
     "mocha": "^2.2.5"
   },
   "dependencies": {
-    "chalk": "^1.1.0"
+    "chalk": "^1.1.0",
+    "cheerio": "^0.19.0",
+    "request": "^2.60.0"
   }
 }
